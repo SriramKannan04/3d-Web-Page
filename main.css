@@ -1,0 +1,247 @@
+main
+{
+    background-color: #353;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax 
+{
+    pointer-events: none;
+    
+}
+
+.bg_img
+{
+    position: absolute;
+    width: 2400px;
+    top: calc(50% - 390px);
+    left: calc(50% - 10px);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.fog_7
+{
+   position: absolute;
+   width: 1900px;
+   top: calc(50% - 150px);
+   left: calc(50% - 300px);
+   transform: translate(-50%, -50%);
+   z-index: 2;
+}
+
+.mountain_10
+{
+   position: absolute;
+   width: 892px;
+   top: calc(50% + 119px);
+   left: calc(50% + 230px);
+   transform: translate(-50%, -50%);
+   z-index: 3;
+}
+
+.fog_6
+{
+   position: absolute;
+   width: 1910px;
+   top: calc(50% + 45px);
+   left: calc(50% + 10px);
+   transform: translate(-50%, -50%);
+   z-index: 4;
+}
+
+.mountain_9
+{
+   position: absolute;
+   width: 470px;
+   top: calc(50% + 113px);
+   left: calc(50% - 457px);
+   transform: translate(-50%, -50%);
+   z-index: 5;
+}
+
+.mountain_8
+{
+   position: absolute;
+   width: 810px;
+   top: calc(50% + 86px);
+   left: calc(50% - 202px);
+   transform: translate(-50%, -50%);
+   z-index: 6;
+}
+
+.fog_5
+{
+   position: absolute;
+   width: 450px;
+   top: calc(50% + 110px);
+   left: calc(50% + 20px);
+   transform: translate(-50%, -50%);
+   z-index: 7;
+}
+
+.mountain_7
+{
+   position: absolute;
+   width: 538px;
+   top: calc(50% + 123px);
+   left: calc(50% - 305px);
+   transform: translate(-50%, -50%);
+   z-index: 9;
+}
+
+
+.text
+{
+    text-transform: uppercase;
+    position: absolute;
+    top: calc(50% - 123px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(22, 248, 5);
+    z-index: 8;
+    text-shadow: 4px 3px black;
+    font-family: 'Rammetto One', cursive;
+    pointer-events: auto;
+}
+
+
+.mountain_6
+{
+   position: absolute;
+   width: 408px;
+   top: calc(50% + 60px);
+   left: calc(50% + 150px);
+   transform: translate(-50%, -50%);
+   z-index: 10;
+}
+
+.fog_4
+{
+   position: absolute;
+   width: 450px;
+   top: calc(50% + 203px);
+   left: calc(50% + 600px);
+   transform: translate(-50%, -50%);
+   z-index: 11;
+}
+
+.mountain_5
+{
+   position: absolute;
+   width: 408px;
+   top: calc(50% + 240px);
+   left: calc(50% + 190px);
+   transform: translate(-50%, -50%);
+   z-index: 12;
+}
+
+.fog_3
+{
+   position: absolute;
+   width: 450px;
+   top: calc(50% + 263px);
+   left: calc(50% + 250px);
+   transform: translate(-50%, -50%);
+   z-index: 13;
+}
+
+.mountain_4
+{
+   position: absolute;
+   width: 408px;
+   top: calc(50% + 240px);
+   left: calc(50% + 370px);
+   transform: translate(-50%, -50%);
+   z-index: 14;
+}
+
+.mountain_3
+{
+   position: absolute;
+   width: 440px;
+   top: calc(50% + 0px);
+   left: calc(50% + 600px);
+   transform: translate(-50%, -50%);
+   z-index: 15;
+   
+}
+
+.fog_2
+{
+   position: absolute;
+   width: 450px;
+   top: calc(50% + 63px);
+   left: calc(50% + 500px);
+   transform: translate(-50%, -50%);
+   z-index: 16;
+}
+
+.mountain_2
+{
+   position: absolute;
+   width: 408px;
+   top: calc(50% + 240px);
+   left: calc(50% + 320px);
+   transform: translate(-50%, -50%);
+   z-index: 17;
+}
+
+.mountain_1
+{
+   position: absolute;
+   width: 418px;
+   top: calc(50% + 30px);
+   left: calc(5% + 0px);
+   transform: translate(-50%, -50%);
+   z-index: 18;   
+}
+
+.sun_rays
+{
+   position: absolute;
+   width: 2018px;
+   top: calc(20% + 5px);
+   left: calc(5% + 1300px);
+   transform: translate(-50%, -50%);
+   pointer-events: none;
+   z-index: 19;   
+}
+
+.black_shadow
+{
+   position: absolute;
+   width: 2990px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   pointer-events: none;
+   z-index: 20;   
+}
+
+.fog_1
+{
+   position: absolute;
+   width: 450px;
+   top: calc(50% + 303px);
+   left: calc(50% + 550px);
+   transform: translate(-50%, -50%);
+   z-index: 20;
+}
+
+.vin
+{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0.7));
+    pointer-events: none;
+
+}
